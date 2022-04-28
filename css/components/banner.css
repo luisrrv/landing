@@ -1,0 +1,40 @@
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  margin-bottom: 32px;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+.banner a {
+  color: red;
+  background-color: transparent;
+  padding: 16px 24px;
+  display: inline-block;
+  margin: 16px 0;
+  border-radius: 8px;
+  border: 2px solid red;
+  transition: 300ms;
+  text-transform: uppercase;
+}
+.banner a:hover {
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+}
+.banner div > p {
+  color: rgb(223, 223, 223);
+  font-size: 40px;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.573);
+
+}
+.banner div > h1 {
+  font-size: 56px;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.573);
+}

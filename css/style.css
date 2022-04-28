@@ -1,0 +1,60 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url(./components/banner.css);
+@import url(./components/footer.css);
+@import url(./components/cards.css);
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container > h2 {
+  text-align: center;
+  padding: 16px 24px;
+  font-weight: 300;
+}
+
+.container-parallax {
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+i {
+  color: red;
+  font-size: 32px;
+  transition: transform 300ms;
+}
+i:hover {
+  transform: translateY(-4px);
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
